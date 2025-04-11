@@ -133,17 +133,10 @@ Your app will be accessible via the **EXTERNAL-IP** of the LoadBalancer:
 
 ---
 
-## ✅ To Do Next: Secure via HTTPS
-
-- Use AWS ACM for SSL Certificates
-- Set up Ingress + ALB Controller
-- Use a domain like `myapp.example.com`
-
----
-
 ## 📌 Notes
 
 - Replace `<your-account-id>` with your AWS Account ID.
+- Replace `demo-app` with your repo name.
 - Make sure EKS nodes have proper IAM roles to pull from ECR.
 
 ---
