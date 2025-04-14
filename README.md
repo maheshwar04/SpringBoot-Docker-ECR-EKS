@@ -1,4 +1,3 @@
-
 # 🚀 Deploying Demo App on AWS EKS with Docker & ECR
 
 This guide walks you through containerizing a demo app, pushing it to AWS ECR, and deploying it on an Amazon EKS cluster.
@@ -16,6 +15,8 @@ docker build -t demo-app .
 ```bash
 docker run -d -p 8080:8080 demo-app:latest
 ```
+![Screenshot 2025-04-11 143007](https://github.com/user-attachments/assets/cf0fa02d-ae43-4159-a84f-a9c94ac14162)
+![Screenshot 2025-04-11 143103](https://github.com/user-attachments/assets/ea1fbadf-f149-4e78-99bd-1e93bb73ab38)
 
 ---
 
@@ -34,6 +35,7 @@ Fill in:
 ```bash
 aws configure set aws_session_token "<Your session token>"
 ```
+![Screenshot 2025-04-11 143206](https://github.com/user-attachments/assets/d0a2f768-b360-4b05-b618-c143c4702678)
 
 ---
 
